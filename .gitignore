@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/bascet
 .pnp.js
 
 # testing
