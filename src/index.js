@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css'; // подключение библиотеки
 import './index.css';
-// import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals';
 import App from '../src/Components/app/app';
-// import AppHeader from "./Components/app-header/app-header";
+import AppHeader from "./Components/app-header/app-header";
+
+
 
 
 ReactDOM.render(<App/>,
@@ -14,4 +15,4 @@ ReactDOM.render(<App/>,
   document.getElementById('root')
 );
 
-// reportWebVitals();
+reportWebVitals();
