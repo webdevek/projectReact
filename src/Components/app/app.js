@@ -16,23 +16,23 @@ import '../post-status-filter/post-status-filter.css';
 
 const App = () => {
 
-    const data = [
-        {label: 'Going to learn React', important: true},
-        {label: 'That is good', important: false},
-        {label: 'I need a break...', important: false}
-    ];
+   const data = [
+      {label: 'Going to learn React', important: true},
+      {label: 'That is good', important: false},
+      {label: 'I need a break...', important: false}
+   ];
 
-    return (
-        <div className="app">
-            <AppHeader/>
-            <div className="search-panel d-flex">
-                <SearchPanel/>
-                <PostStatusFilter/>
-            </div>
-            <PostList posts={data} />
-            <PostAddForm/>
-        </div>
-    )
+   return (
+      <div className="app">
+         <AppHeader/>
+         <div className="search-panel d-flex">
+               <SearchPanel/>
+               <PostStatusFilter/>
+         </div>
+         <PostList posts={data} />
+         <PostAddForm/>
+      </div>
+   )
 }
 
 export default App;
