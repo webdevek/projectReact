@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-
-// import 'search-panel.css';
-
 export default class SearchPanel extends Component {
     constructor(props) {
         super(props);

@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-// import { Button } from 'reactstrap'; // для импорта кнопок
-
-// import 'post-status-filter.css';
 
 export default class PostStatusFilter extends Component {
     constructor(props) {
